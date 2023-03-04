@@ -16,7 +16,7 @@ class App {
         this.app.use(cors());
         const corsOptions = {
             // Make sure origin contains the url your frontend is running on
-            origin: ['http://127.0.0.1:8080', 'http://localhost:8080', 'http://127.0.0.1:3000', 'http://localhost:3000'],
+            origin: ['https://methoda-client-h52an.ondigitalocean.app/', 'http://127.0.0.1:8080', 'http://localhost:8080', 'http://127.0.0.1:3000', 'http://localhost:3000'],
             credentials: true
         }
         this.app.use(cors(corsOptions))
